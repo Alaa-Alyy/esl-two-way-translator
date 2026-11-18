@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#071a2b"/>
+      <stop offset="1" stop-color="#0b3d5c"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3fc1c9"/>
+    </marker>
+  </defs>
+  <rect width="900" height="300" rx="16" fill="url(#bg)"/>
+
+  <!-- Deaf user -->
+  <g transform="translate(40,70)">
+    <circle cx="70" cy="40" r="30" fill="#1a7f8e"/>
+    <text x="70" y="50" text-anchor="middle" font-size="30">🤟</text>
+    <text x="70" y="100" text-anchor="middle" font-size="16" fill="#e6f1f5" font-weight="600">Deaf user</text>
+    <text x="70" y="122" text-anchor="middle" font-size="13" fill="#9fc3d1">signs a sentence</text>
+  </g>
+
+  <!-- Phone -->
+  <g transform="translate(360,30)">
+    <rect width="180" height="240" rx="24" fill="#0d2233" stroke="#3fc1c9" stroke-width="2"/>
+    <rect x="70" y="12" width="40" height="6" rx="3" fill="#1a7f8e"/>
+    <text x="90" y="62" text-anchor="middle" font-size="13" fill="#9fc3d1">on-device AI</text>
+    <text x="90" y="100" text-anchor="middle" font-size="28">📱</text>
+    <text x="90" y="140" text-anchor="middle" font-size="13" fill="#e6f1f5">vision · model</text>
+    <text x="90" y="160" text-anchor="middle" font-size="13" fill="#e6f1f5">language · voice</text>
+    <text x="90" y="180" text-anchor="middle" font-size="13" fill="#e6f1f5">3D avatar</text>
+    <text x="90" y="215" text-anchor="middle" font-size="12" fill="#3fc1c9">works offline</text>
+  </g>
+
+  <!-- Hearing user -->
+  <g transform="translate(700,70)">
+    <circle cx="80" cy="40" r="30" fill="#1a7f8e"/>
+    <text x="80" y="50" text-anchor="middle" font-size="30">🗣️</text>
+    <text x="80" y="100" text-anchor="middle" font-size="16" fill="#e6f1f5" font-weight="600">Hearing user</text>
+    <text x="80" y="122" text-anchor="middle" font-size="13" fill="#9fc3d1">speaks Egyptian Arabic</text>
+  </g>
+
+  <!-- Direction 1: top arrows (Deaf -> phone -> hearing) -->
+  <path d="M190,95 L350,95" stroke="#3fc1c9" stroke-width="3" fill="none" marker-end="url(#arrow)" stroke-dasharray="8 6">
+    <animate attributeName="stroke-dashoffset" from="28" to="0" dur="1s" repeatCount="indefinite"/>
+  </path>
+  <path d="M550,95 L710,95" stroke="#3fc1c9" stroke-width="3" fill="none" marker-end="url(#arrow)" stroke-dasharray="8 6">
+    <animate attributeName="stroke-dashoffset" from="28" to="0" dur="1s" repeatCount="indefinite"/>
+  </path>
+  <text x="270" y="82" text-anchor="middle" font-size="12" fill="#9fc3d1">camera</text>
+  <text x="630" y="82" text-anchor="middle" font-size="12" fill="#9fc3d1">text + voice</text>
+
+  <!-- Direction 2: bottom arrows (hearing -> phone -> Deaf) -->
+  <path d="M710,205 L550,205" stroke="#f0b35a" stroke-width="3" fill="none" marker-end="url(#arrow2)" stroke-dasharray="8 6">
+    <animate attributeName="stroke-dashoffset" from="28" to="0" dur="1s" repeatCount="indefinite"/>
+  </path>
+  <path d="M350,205 L190,205" stroke="#f0b35a" stroke-width="3" fill="none" marker-end="url(#arrow2)" stroke-dasharray="8 6">
+    <animate attributeName="stroke-dashoffset" from="28" to="0" dur="1s" repeatCount="indefinite"/>
+  </path>
+  <defs>
+    <marker id="arrow2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#f0b35a"/>
+    </marker>
+  </defs>
+  <text x="630" y="228" text-anchor="middle" font-size="12" fill="#f3d3a1">microphone</text>
+  <text x="270" y="228" text-anchor="middle" font-size="12" fill="#f3d3a1">3D avatar signs + text</text>
+
+  <text x="450" y="292" text-anchor="middle" font-size="12" fill="#6f95a8">sign → speech (teal) · speech → sign (amber)</text>
+</svg>
