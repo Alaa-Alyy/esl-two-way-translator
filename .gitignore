@@ -1,0 +1,35 @@
+# Generated HTML from docs/build.py
+docs/build/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Large data and model files (keep out of git; share via drive/DVC)
+data/raw/
+data/clips/
+landmarks/
+features/
+*.mp4
+*.avi
+*.npz
+*.npy
+
+# Android
+*.iml
+.gradle/
+local.properties
+android/**/build/
+.idea/
+
+# Secrets
+.env
+google-services.json
+*.keystore
+
+# OS
+.DS_Store
+Thumbs.db
