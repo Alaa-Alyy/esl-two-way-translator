@@ -1,0 +1,29 @@
+{
+  "sign_id": "S046",
+  "fps": 30,
+  "source_clip": "S046_K02_11",
+  "core_start": 12,
+  "core_end": 58,
+  "frames": [
+    {
+      "bones": {
+        "RightUpperArm": [
+          0,
+          0,
+          0.38,
+          0.92
+        ],
+        "RightIndex1": [
+          0.1,
+          0,
+          0,
+          0.99
+        ]
+      },
+      "blend": {
+        "browInnerUp": 0.2,
+        "jawOpen": 0.1
+      }
+    }
+  ]
+}

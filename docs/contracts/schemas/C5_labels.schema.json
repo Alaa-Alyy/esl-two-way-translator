@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "C5_labels.schema.json",
+  "title": "C5 labels.json",
+  "type": "array",
+  "items": {
+    "type": "string",
+    "pattern": "^(S\\d{3}|NONE)$"
+  },
+  "minItems": 1,
+  "uniqueItems": true
+}

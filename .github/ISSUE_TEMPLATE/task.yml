@@ -1,0 +1,43 @@
+name: Task
+description: A piece of work for one role
+labels: ["task"]
+body:
+  - type: dropdown
+    id: role
+    attributes:
+      label: Role
+      options:
+        - "1 Data & Evaluation"
+        - "2 Computer Vision"
+        - "3 Machine Learning"
+        - "4 Mobile App"
+        - "5 Speech & NLP"
+        - "6 3D Avatar"
+        - "Everyone"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What needs to be done
+      placeholder: One or two sentences.
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when
+      description: How will we know it is finished? (a file exists, a number is measured, a test passes...)
+      placeholder: "- [ ] ..."
+    validations:
+      required: true
+  - type: input
+    id: contracts
+    attributes:
+      label: Contracts involved
+      placeholder: e.g. C4, C5
+  - type: input
+    id: depends
+    attributes:
+      label: Depends on
+      placeholder: e.g. #12, or "dummy model from ML"

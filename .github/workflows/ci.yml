@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  contracts:
+    name: Contracts and repo hygiene
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate contracts (C1–C11)
+        run: |
+          pip install jsonschema==4.23.0
+          python scripts/validate_contracts.py
+
+      - name: Block secrets and large data files
+        run: |
+          bad=$(git ls-files | grep -E '(^|/)\.env$|\.(mp4|avi|mov|webm|pt|pth|ckpt|h5|safetensors|keystore)$|google-services\.json' || true)
+          if [ -n "$bad" ]; then echo "These files must not be committed:"; echo "$bad"; exit 1; fi
+          big=$(git ls-files -z | xargs -0 -I{} sh -c 'if [ -f "{}" ] && [ $(stat -c%s "{}") -gt 10485760 ]; then echo "{}"; fi')
+          if [ -n "$big" ]; then echo "Files over 10 MB (use the team drive or Git LFS):"; echo "$big"; exit 1; fi
+
+      # Each role adds its own test step here when its code lands, for example:
+      #   - run: pip install -r cv/requirements.txt && pytest cv/tests
+      #   - run: cd android && ./gradlew test

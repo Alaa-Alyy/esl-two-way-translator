@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "C9_sign_sequence.schema.json",
+  "title": "C9 sign sequence for output",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "phrase_id",
+    "signs",
+    "sentence_type",
+    "fingerspell",
+    "text_ar_eg"
+  ],
+  "properties": {
+    "phrase_id": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^P\\d{3}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "signs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^(S\\d{3}|NONE)$"
+      }
+    },
+    "sentence_type": {
+      "enum": [
+        "statement",
+        "yes_no_question",
+        "wh_question",
+        "negation",
+        "command",
+        "emergency"
+      ]
+    },
+    "fingerspell": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "text_ar_eg": {
+      "type": "string"
+    }
+  }
+}

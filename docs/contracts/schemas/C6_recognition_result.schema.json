@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "C6_recognition_result.schema.json",
+  "title": "C6 recognition result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "signs"
+  ],
+  "properties": {
+    "signs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "sign_id",
+          "confidence",
+          "top3"
+        ],
+        "properties": {
+          "sign_id": {
+            "type": "string",
+            "pattern": "^(S\\d{3}|NONE)$"
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "top3": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^(S\\d{3}|NONE)$"
+            },
+            "maxItems": 3
+          }
+        }
+      }
+    },
+    "context": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Intent of the last question, for context-aware vocabulary"
+    }
+  }
+}

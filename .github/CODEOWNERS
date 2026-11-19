@@ -1,0 +1,17 @@
+# CODEOWNERS: GitHub asks these people to review changes in their folders.
+# Replace each @username with the team member's GitHub username, then remove the leading "# ".
+# Contracts list every role that uses them, so a contract change needs those roles' review.
+
+# --- Role folders ---
+# /data-pipeline/  @role1-username
+# /data/           @role1-username
+# /cv/             @role2-username
+# /ml/             @role3-username
+# /android/        @role4-username
+# /nlp/            @role5-username
+# /avatar/         @role6-username
+
+# --- Contracts and specs (owner + users) ---
+# /docs/contracts/          @role1-username @role2-username @role3-username @role4-username @role5-username @role6-username
+# /docs/feature_spec.md     @role2-username @role3-username @role4-username
+# /scripts/validate_contracts.py @role1-username @role2-username

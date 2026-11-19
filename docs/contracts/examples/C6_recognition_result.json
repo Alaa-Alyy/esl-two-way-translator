@@ -1,0 +1,14 @@
+{
+  "signs": [
+    {
+      "sign_id": "S045",
+      "confidence": 0.91,
+      "top3": [
+        "S045",
+        "S012",
+        "S077"
+      ]
+    }
+  ],
+  "context": "ASK_PAIN_LOCATION"
+}

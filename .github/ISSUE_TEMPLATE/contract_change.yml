@@ -1,0 +1,37 @@
+name: Contract change
+description: Propose a change to one of the contracts C1–C11
+labels: ["contract"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Contracts are what the roles rely on to work in parallel. A change needs agreement from **every role that uses it**,
+        a version bump in `docs/contracts/README.md`, and an entry in `docs/decisions.md`.
+  - type: dropdown
+    id: contract
+    attributes:
+      label: Contract
+      options: [C1 vocabulary, C2 clips and metadata, C3 raw landmarks, C4 features, C5 model package, C6 recognition result, C7 sentence, C8 understanding, C9 sign sequence, C10 avatar, C11 My Signs submission]
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: The change
+      description: Exact fields, shapes or names, before and after.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+    validations:
+      required: true
+  - type: checkboxes
+    id: agreed
+    attributes:
+      label: Agreement
+      options:
+        - label: Every role that uses this contract has agreed in this issue
+        - label: I will bump the version and update the schema and example
+        - label: I will add an entry to docs/decisions.md

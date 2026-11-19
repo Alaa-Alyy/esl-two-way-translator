@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "C5_thresholds.schema.json",
+  "title": "C5 thresholds.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "accept",
+    "ask",
+    "none_margin"
+  ],
+  "properties": {
+    "accept": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "ask": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "none_margin": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    }
+  }
+}

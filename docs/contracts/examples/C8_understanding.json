@@ -1,0 +1,13 @@
+{
+  "text": "بقالك قد ايه عندك السخونية دي؟",
+  "intent": "ASK_DURATION",
+  "entities": {
+    "SYMPTOM": "FEVER"
+  },
+  "phrase_id": "P017",
+  "confidence": 0.82,
+  "alternatives": [
+    "P018",
+    "P020"
+  ]
+}

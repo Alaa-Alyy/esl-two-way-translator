@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "C10_animation.schema.json",
+  "title": "C10 avatar animation for one sign",
+  "type": "object",
+  "required": [
+    "sign_id",
+    "fps",
+    "source_clip",
+    "core_start",
+    "core_end",
+    "frames"
+  ],
+  "properties": {
+    "sign_id": {
+      "type": "string",
+      "pattern": "^(S\\d{3}|NONE)$"
+    },
+    "fps": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "source_clip": {
+      "type": "string"
+    },
+    "core_start": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "core_end": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "frames": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "bones"
+        ],
+        "properties": {
+          "bones": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "minItems": 4,
+              "maxItems": 4,
+              "items": {
+                "type": "number"
+              }
+            }
+          },
+          "blend": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}

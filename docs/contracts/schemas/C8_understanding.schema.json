@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "C8_understanding.schema.json",
+  "title": "C8 understanding result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "text",
+    "intent",
+    "entities",
+    "phrase_id",
+    "confidence",
+    "alternatives"
+  ],
+  "properties": {
+    "text": {
+      "type": "string"
+    },
+    "intent": {
+      "type": "string",
+      "pattern": "^[A-Z_]+$"
+    },
+    "entities": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "phrase_id": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^P\\d{3}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "alternatives": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^P\\d{3}$"
+      },
+      "maxItems": 3
+    }
+  }
+}

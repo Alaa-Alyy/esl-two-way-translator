@@ -15,8 +15,23 @@ landmarks/
 features/
 *.mp4
 *.avi
+*.mov
+*.webm
+*.zip
 *.npz
 *.npy
+# ...except the small reference files the golden test needs
+!cv/golden/**
+
+# Model checkpoints and experiment logs (exported .tflite packages in ml/models/ are allowed)
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.safetensors
+wandb/
+runs/
+mlruns/
 
 # Android
 *.iml
@@ -27,6 +42,8 @@ android/**/build/
 
 # Secrets
 .env
+.env.*
+!.env.example
 google-services.json
 *.keystore
 

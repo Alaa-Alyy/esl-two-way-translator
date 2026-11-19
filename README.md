@@ -123,16 +123,32 @@ Nothing about specific signs is hard-coded: every sign lives in `vocabulary.csv`
 ```
 esl-two-way-translator/
 ├── data-pipeline/   datasets, vocabulary, splits, adapter        (Data & Evaluation)
+├── data/            vocabulary.csv, metadata.csv, splits (small files only)
 ├── cv/              landmark extraction, features, segmentation  (Computer Vision)
 ├── ml/              training, evaluation, model export           (Machine Learning)
 ├── android/         the mobile app                               (Mobile App)
 ├── nlp/             speech, intents, sentences, voice            (Speech & NLP)
 ├── avatar/          3D character, animations, viewer             (3D Avatar)
-├── docs/            project documents (EN + AR) and PDFs
+├── docs/
+│   ├── contracts/   C1–C11: what each role hands to the others (schemas + examples)
+│   ├── decisions.md every decision and why
+│   ├── feature_spec.md   exact feature layout (C4)
+│   └── en/ ar/ pdf/ project documents (EN + AR)
+├── scripts/         validate_contracts.py (runs in CI)
+├── .github/         issue templates, PR template, CI, CODEOWNERS
+├── CLAUDE.md        project context for AI coding tools (AGENTS.md points here)
 └── assets/          images for this README
 ```
 
-> Folders are added as each part starts. `docs/` is ready now.
+Every role folder has a README: what it delivers, what it receives, its layout and its first two weeks.
+
+## 🤝 How we work
+
+1. **Pick or open an issue** (Task / Bug / Contract change templates), with your role and "done when".
+2. **Branch** from `main`, commit small, open a **pull request**; someone from a different role reviews.
+3. **Contracts** in [`docs/contracts/`](docs/contracts/README.md) are fixed after week 2: changing one needs a Contract change issue, the users' agreement, a version bump and an entry in [`docs/decisions.md`](docs/decisions.md).
+4. **CI** checks every pull request: contracts still valid, no secrets, no large data files.
+5. **Weekly demo**: show what actually works.
 
 ---
 

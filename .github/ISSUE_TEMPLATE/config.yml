@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Project documents (EN / AR)
+    url: https://github.com/Alaa-Alyy/esl-two-way-translator/tree/main/docs/pdf
+    about: Read the master document and your role document before opening an issue.

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "C5_prototypes.schema.json",
+  "title": "C5 prototypes.json",
+  "type": "object",
+  "propertyNames": {
+    "type": "string",
+    "pattern": "^(S\\d{3}|NONE)$"
+  },
+  "additionalProperties": {
+    "type": "array",
+    "minItems": 1,
+    "items": {
+      "type": "array",
+      "minItems": 128,
+      "maxItems": 128,
+      "items": {
+        "type": "number"
+      }
+    }
+  }
+}

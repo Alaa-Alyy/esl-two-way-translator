@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "C11_my_signs_submission.schema.json",
+  "title": "C11 My Signs submission",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "submission_id",
+    "word_ar_eg",
+    "embeddings",
+    "landmarks_files",
+    "video_consent",
+    "app_version",
+    "model_version"
+  ],
+  "properties": {
+    "submission_id": {
+      "type": "string"
+    },
+    "word_ar_eg": {
+      "type": "string",
+      "minLength": 1
+    },
+    "embeddings": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "array",
+        "minItems": 128,
+        "maxItems": 128,
+        "items": {
+          "type": "number"
+        }
+      }
+    },
+    "landmarks_files": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "video_consent": {
+      "type": "boolean"
+    },
+    "region": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "app_version": {
+      "type": "string"
+    },
+    "model_version": {
+      "type": "string"
+    }
+  }
+}
