@@ -54,7 +54,13 @@ Format: `D-NNN · YYYY-MM-DD · decision` — then *Why* and *Consequences*.
 
 ## Open decisions (to settle in weeks 1–2)
 
-- [ ] KArSL licence: does it allow our academic use and showing clips in the app? (role 1)
+- [ ] **Show KArSL videos in the app, or only the avatar?** (everyone — next team meeting)
+  - *Where videos were planned:* "Did you mean?" thumbnails, the dictionary screen, and a fallback when a sign has no avatar animation.
+  - *Option A — avatar only:* the avatar does all three; no KArSL video or real person appears in the app; the licence question shrinks to training + using the motion for the avatar. Signs without a clean animation are fixed or dropped.
+  - *Option B — videos too:* closer to the original plan, but needs explicit permission from the KArSL author, shows Unified Arabic (not Egyptian) signers, and has to be replaced later anyway.
+  - *Suggestion:* Option A.
+  - The licence email waits for this decision, so it asks only what we need.
+- [ ] KArSL licence: does it allow our academic use (and, depending on the decision above, showing clips in the app)? (role 1)
 - [ ] PyTorch or TensorFlow, by the easiest path to `.tflite` (role 3)
 - [ ] Avatar renderer: three.js WebView, SceneView, or Unity (roles 4 + 6)
 - [ ] Final list of the first 50 signs (everyone)
