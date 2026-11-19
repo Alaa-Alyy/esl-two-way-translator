@@ -46,9 +46,9 @@ Format: `D-NNN · YYYY-MM-DD · decision` — then *Why* and *Consequences*.
 **Why:** the Kaggle mirror is 25.5 GB of frames; third-party keypoint sets use unknown extraction settings, which would break train/serve parity.
 **Consequences:** landmark extraction (role 2) runs in a Kaggle notebook with the dataset attached; only C3 `.npz` files leave Kaggle. Details in `docs/karsl_review.md`.
 
-### D-011 · 2026-11-19 · Verify every sign label against the official KArSL file
-**Why:** the third-party label file has translation mistakes (e.g. #502 "appointment" = job appointment, #395 "Before" = Imam).
-**Consequences:** `data/karsl/clinic_candidates.csv` is a draft until checked against `KARSL-502_Labels.xlsx`; missing clinic words are listed as Egyptian-data targets.
+### D-011 · 2026-11-19 · Confirm each sign's meaning from its clip, not only its label
+**Why:** the official `KARSL-502_Labels.xlsx` (identical to the Kaggle label file) has ambiguous or misleading labels, e.g. #502 "appointment" = تعيين (a job appointment), #395 "Before" = إمام (Imam).
+**Consequences:** `data/karsl/clinic_candidates.csv` is a draft until each kept sign is checked by watching a clip; missing clinic words are listed as Egyptian-data targets.
 
 ---
 

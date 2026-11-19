@@ -34,7 +34,7 @@ Until then: use KArSL for training and evaluation only; plan the app's reference
 The 502 signs come from 11 chapters of the Unified Arabic dictionary. One of them is **Health (signs 71–159, 89 signs)**, which fits our domain directly. Useful signs also exist in the other chapters: `doctor`, `nurse`, `pharmacist`, `hospital`, `pharmacy`, `Sign language translator`, greetings, numbers, directions and feelings.
 
 Files in this repo:
-- [`data/karsl/karsl_502_signs.csv`](../data/karsl/karsl_502_signs.csv): all 502 signs with Arabic, English and chapter.
+- [`data/karsl/karsl_502_signs.csv`](../data/karsl/karsl_502_signs.csv): all 502 signs with Arabic, English and chapter (same labels as the official `KARSL-502_Labels.xlsx`; the .xlsx itself is not committed while the licence is unknown).
 - [`data/karsl/clinic_candidates.csv`](../data/karsl/clinic_candidates.csv): **112 candidates**, tier 1 = **54** (the first set), tier 2 = 58 (growing to ~100).
 
 | Category | Tier 1 examples |
@@ -49,8 +49,11 @@ Files in this repo:
 
 ## 5. Problems found
 
-1. **The third-party label file has translation mistakes.** Examples: #502 "appointment" is تعيين in the *Jobs* chapter (appointing someone to a job, not a clinic appointment); #395 "Before" is إمام in the *Religion* chapter (most likely "Imam"). Both were removed from the candidates.
-   **Action:** get the official `KARSL-502_Labels.xlsx` from the author's Drive folder and check every candidate against it.
+1. **Some labels are ambiguous or wrong, in the official file itself.** We compared the official `KARSL-502_Labels.xlsx` (author's Drive) with the Kaggle label file: they are identical (0 differences in 502 rows), and all 112 candidates match. But a label can still be misleading:
+   - #502 "appointment" = تعيين, in the *Jobs* chapter: appointing someone to a job, not a clinic appointment.
+   - #395 "Before" = إمام, in the *Religion* chapter: إمام means Imam, which fits the chapter, while "Before" would be أمام ("in front of", which already exists as #273).
+   Both were removed from the candidates.
+   **Action:** for every sign we keep, check the meaning by **watching the clip** (and with an Egyptian interpreter when possible), not only by its label.
 2. **Important clinic words are missing from KArSL:** yes, no, please, sorry, wait, understand, repeat, today, tomorrow, yesterday, hour, cough, vomiting, dizziness, stomach, eye, ear, tooth, hand, leg, prescription, price, pay, ID card, reception, a medical appointment, emergency.
    **Action:** list them in `vocabulary.csv` with `source=EGY-*` as the first targets for Egyptian data or My Signs; until then, the app covers them with quick buttons and fingerspelling.
 3. **Only 3 signers:** LOSO trains on 2 and tests on 1, so the unseen-signer number will be modest. Expected and documented (D-004).
@@ -65,7 +68,8 @@ Do **not** download the whole dataset. Recommended:
 ## 7. Next steps
 
 - [ ] Email the author about the licence (role 1)
-- [ ] Get `KARSL-502_Labels.xlsx` and verify the 112 candidates (role 1)
+- [x] Get `KARSL-502_Labels.xlsx` and compare it with our list: identical, all 112 candidates match (2026-11-19)
+- [ ] Watch one clip of each tier-1 sign to confirm its meaning (role 1, with the team)
 - [ ] Team agrees the final first set from tier 1 → `data/vocabulary.csv` (C1) (everyone)
 - [ ] Kaggle notebook: extract landmarks for 20 tier-1 signs as the first test (role 2)
 - [ ] Quick baseline on those 20 signs with LOSO (role 3)
