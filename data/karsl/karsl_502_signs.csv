@@ -1,0 +1,503 @@
+karsl_id,en,ar,chapter
+1,0,0,Numbers
+2,1,1,Numbers
+3,2,2,Numbers
+4,3,3,Numbers
+5,4,4,Numbers
+6,5,5,Numbers
+7,6,6,Numbers
+8,7,7,Numbers
+9,8,8,Numbers
+10,9,9,Numbers
+11,10,10,Numbers
+12,20,20,Numbers
+13,30,30,Numbers
+14,40,40,Numbers
+15,50,50,Numbers
+16,60,60,Numbers
+17,70,70,Numbers
+18,80,80,Numbers
+19,90,90,Numbers
+20,100,100,Numbers
+21,200,200,Numbers
+22,300,300,Numbers
+23,400,400,Numbers
+24,500,500,Numbers
+25,600,600,Numbers
+26,700,700,Numbers
+27,800,800,Numbers
+28,900,900,Numbers
+29,1000,1000,Numbers
+30,1000000,1000000,Numbers
+31,10000000,10000000,Numbers
+32,alif,ا,Letters
+33,baa,ب,Letters
+34,ta,ت,Letters
+35,tha,ث,Letters
+36,Jiim,ج,Letters
+37,Haa,ح,Letters
+38,kha,خ,Letters
+39,daal,د,Letters
+40,thal,ذ,Letters
+41,raa,ر,Letters
+42,zay,ز,Letters
+43,siin,س,Letters
+44,shiin,ش,Letters
+45,Saad,ص,Letters
+46,Daad,ض,Letters
+47,Taa,ط,Letters
+48,Zaa,ظ,Letters
+49,Ayn,ع,Letters
+50,ghayn,غ,Letters
+51,faa,ف,Letters
+52,qaaf,ق,Letters
+53,kaaf,ك,Letters
+54,laam,ل,Letters
+55,miim,م,Letters
+56,noon,ن,Letters
+57,haa,ه,Letters
+58,waaw,و,Letters
+59,yaa,ي,Letters
+60,taa marbuuTa,ة,Letters
+61,alif with hamza above,أ,Letters
+62,Waaw with hamza,ؤ,Letters
+63,Alif maqsoura with hamza,ئ,Letters
+64,hamza on line,ئـ,Letters
+65,hamza,ء,Letters
+66,alif with hamza below,إ,Letters
+67,ALif with maad,آ,Letters
+68,Alif maqsoura,ى,Letters
+69,laam Alif,لا,Letters
+70,Al,ال,Letters
+71,Skeleton,هيكل عظمي,Health
+72,skull,جمجة,Health
+73,Backbone,عمود فقري,Health
+74,Chest,قفص صدري,Health
+75,Respiratory device,جهاز تنفسي,Health
+76,Trachea,قصبة هوائية,Health
+77,lungs,رئتان,Health
+78,Ins and Outs,شهيق - زفير,Health
+79,digestive system,جهاز هضمي,Health
+80,Face,وجه,Health
+81,pharynx,بلعوم,Health
+82,liver,كبد,Health
+83,pancreas,البنكرياس,Health
+84,Small intestine,الأمعاء الدقيقة,Health
+85,Large intestine,الأمعاء الغليظة,Health
+86,Appendix,الزائدة الدودية,Health
+87,nervous system,جهاز عصبي,Health
+88,heart,قلب,Health
+89,five senses,حواس خمس,Health
+90,muscle,عضلة,Health
+91,tissue,أنسجة,Health
+92,hospital,مستشفى,Health
+93,first aid,إسعافات أولية,Health
+94,wound,جرح نازف,Health
+95,burning,حروق,Health
+96,anesthetist,مخدر/ بنج,Health
+97,surgery,عملية جراحية,Health
+98,gauze,شاش / ضمادة,Health
+99,adhesive tape,شريط لاصق / بلاستر,Health
+100,pharmacy,صيدلية,Health
+101,blood analysis,تحليل دم,Health
+102,physical examination,فحص سريري,Health
+103,sight examination,فحص النظر,Health
+104,thermometer,ميزان حرارة,Health
+105,stethoscope,سماعة أذن,Health
+106,sphygmometroscope,جهاز قياس الضغط,Health
+107,pulse,نبض القلب,Health
+108,analysis,تحليل طبي,Health
+109,analysis laboratory,معمل التحاليل / مختبر,Health
+110,ray photo,صورة اشعة,Health
+111,inflammation,التهاب,Health
+112,swelling,تورم,Health
+113,cold,زكام,Health
+114,infection,عدوى,Health
+115,headache,صداع,Health
+116,pain,ألم,Health
+117,fever,حمى,Health
+118,diarrhea,إسهال,Health
+119,constipation,إمساك,Health
+120,colic,مغص,Health
+121,diabetes,مرض السكر / سكري,Health
+122,heart attack,أزمة قلبية,Health
+123,cancer,سرطان,Health
+124,Aids,مرض فقدان المناعة / الإيدز,Health
+125,Loss of hair,تساقط الشعر,Health
+126,Heart failure,سكتة قلبية,Health
+127,hemiplegia,شلل نصفي,Health
+128,Cerebral paralysis,شلل دماغي,Health
+129,blood pressure,ضغط الدم,Health
+130,allergy,حساسية,Health
+131,itch,حكة / هرش,Health
+132,medicine,دواء,Health
+133,monthly circulation,دورة شهرية,Health
+134,sick,مريض / مرض,Health
+135,capsule,كبسولة,Health
+136,liquid medicine,دواء شراب,Health
+137,ointment,مرهم,Health
+138,dropper,قطارة,Health
+139,acupuncture,أخذ إبرة,Health
+140,pollination,تلقيح,Health
+141,inoculation,تطعيم,Health
+142,laser ray,أشعة ليزر,Health
+143,drug's,مخدرات,Health
+144,addiction,إدمان,Health
+145,oneness,توحد / أوتيزم,Health
+146,mongoloid,منغولي,Health
+147,bacterium,بكتريا,Health
+148,microbe,جرثومة,Health
+149,virus,فيروس,Health
+150,spread,إنتشار,Health
+151,hindrance,إعاقة,Health
+152,mentality hindrance,إعاقة ذهنية,Health
+153,physical disability,اعاقة جسدية,Health
+154,visual impairment,اعاقة بصرية,Health
+155,hearing hindrance,إعاقة سمعية,Health
+156,epidemic,وباء,Health
+157,immunity,مناعة,Health
+158,nerve,عصب,Health
+159,healthy,معافى,Health
+160,eat,يأكل,Common verbs
+161,drink,يشرب,Common verbs
+162,sleep,ينام,Common verbs
+163,wake up,يستيقظ,Common verbs
+164,hear,يسمع,Common verbs
+165,silence,يسكت,Common verbs
+166,inhale,يشم,Common verbs
+167,rise,يصعد,Common verbs
+168,descend,ينزل,Common verbs
+169,open,يفتح,Common verbs
+170,close,يقفل ( يغلق ),Common verbs
+171,build,يبني,Common verbs
+172,break,يكسر,Common verbs
+173,walk,يمشي,Common verbs
+174,love,يحب,Common verbs
+175,hate,يكره,Common verbs
+176,grill,يشوي,Common verbs
+177,plow,يحرث,Common verbs
+178,plant,يزرع,Common verbs
+179,irrigate,يسقي,Common verbs
+180,harvest,يحصد,Common verbs
+181,think,يفكر,Common verbs
+182,help,يساعد,Common verbs
+183,smoke,يدخن,Common verbs
+184,support,يدعم,Common verbs
+185,choose,يختار,Common verbs
+186,call,ينادي,Common verbs
+187,grow,يتنامى,Common verbs
+188,dye,يصبغ,Common verbs
+189,stand,يقف,Common verbs
+190,bathe,يستحم,Common verbs
+191,enter,يدخل,Common verbs
+192,family,أسرة,Family
+193,grandmother,جدة,Family
+194,grandfather,جد,Family
+195,father,أب,Family
+196,mother,أم,Family
+197,sister,أخت,Family
+198,brother,أخ,Family
+199,girl,بنت,Family
+200,baby,رضيع,Family
+201,twin,توأم,Family
+202,man,رجل,Family
+203,young man,شاب,Family
+204,young woman,شابة,Family
+205,grandchild,حفيد,Family
+206,wedding,زواج,Family
+207,pregnant,حمل,Family
+208,childbirth,ولادة,Family
+209,uncle,عم,Family
+210,aunt,عمة,Family
+211,maternal uncle,خال,Family
+212,maternal aunt,خالة,Family
+213,nephew,ابن الأخ,Family
+214,nephew,ابن الأخت,Family
+215,cousin,ابن العم,Family
+216,son,ابن,Family
+217,daughter,ابنة,Family
+218,people,ناس,Family
+219,divorce,طلاق,Family
+220,engagement,خطوبة,Family
+221,party,حفلة,Family
+222,death,وفاة,Family
+223,child,طفل,Family
+224,beautiful,جميل,Characteristics
+225,ugly,قبيح,Characteristics
+226,long,طويل,Characteristics
+227,short,قصير,Characteristics
+228,thin,نحيف,Characteristics
+229,fat,سمين,Characteristics
+230,rich,غني,Characteristics
+231,poor,فقير,Characteristics
+232,offended,محبط,Characteristics
+233,disgusted,مشمئز,Characteristics
+234,confused,مرتبك,Characteristics
+235,worried,قلق,Characteristics
+236,deranged,مشوش,Characteristics
+237,afraid,خائف,Characteristics
+238,happy,سعيد (مسرور),Characteristics
+239,sad,حزين,Characteristics
+240,courageous,شجاع,Characteristics
+241,coward,جبان,Characteristics
+242,ambitious,طموح,Characteristics
+243,admirable,معجب,Characteristics
+244,to be jealous of,غائر من,Characteristics
+245,to protect jealously,غائر على,Characteristics
+246,affectionate,ودود,Characteristics
+247,generous,كريم,Characteristics
+248,miserly,بخيل,Characteristics
+249,greedy,طماع,Characteristics
+250,liar,كذاب,Characteristics
+251,selfish,أناني,Characteristics
+252,proud,متكبر,Characteristics
+253,humble,متواضع,Characteristics
+254,feeling,شعور,Characteristics
+255,tired,تعب,Characteristics
+256,crying,بكاء,Characteristics
+257,contempt,احتقار,Characteristics
+258,self-dependence,اعتماد على الذات,Characteristics
+259,light,خفيف,Characteristics
+260,heavy,ثقيل,Characteristics
+261,old,قديم,Characteristics
+262,envy,حسد,Characteristics
+263,believe,صدق,Characteristics
+264,betrayal,غدر,Characteristics
+265,patient,صبر,Characteristics
+266,blame,لوم,Characteristics
+267,truth,الحق,Characteristics
+268,treason,خيانة,Characteristics
+269,preference,إيثار,Characteristics
+270,self sacrifice,تضحية,Characteristics
+271,pity,شفقة,Characteristics
+272,intelligent,ذكي,Characteristics
+273,in front of,أمام,Directions and places
+274,side,بجانب,Directions and places
+275,far,بعيد,Directions and places
+276,between,بين,Directions and places
+277,under,تحت,Directions and places
+278,around,حول,Directions and places
+279,outside,خارج,Directions and places
+280,back,خلف,Directions and places
+281,inside,داخل,Directions and places
+282,up,فوق,Directions and places
+283,near,قريب,Directions and places
+284,through,من خلال,Directions and places
+285,here,هنا,Directions and places
+286,there,هناك,Directions and places
+287,left,يسار,Directions and places
+288,right,يمين,Directions and places
+289,welcome,أهلا وسهلاً,Social relationships
+290,greeting,السلام عليكم,Social relationships
+291,here you are,تفضل,Social relationships
+292,neighbor,جار,Social relationships
+293,thanks,شكراً,Social relationships
+294,friend,صديق,Social relationships
+295,guest,ضيف,Social relationships
+296,enemy,عدو,Social relationships
+297,fault,عيب,Social relationships
+298,gift,هدية,Social relationships
+299,house,بيت,In house
+300,wall,جدار,In house
+301,roof,سقف,In house
+302,door,باب,In house
+303,window,شباك,In house
+304,room,غرفة,In house
+305,bedroom,غرفة نوم,In house
+306,bed,سرير,In house
+307,mattress,مرتبة سرير ( حشية),In house
+308,bedsheet,شرشف ( غطاء سرير),In house
+309,pillow,وسادة ( مخدة),In house
+310,clothes rail,شماعة ( مشجب),In house
+311,wardrobe,خزانة ملابس,In house
+312,kitchen,مطبخ,In house
+313,Oven,فرن غازي,In house
+314,cooker,بوتاغاز (طابخ),In house
+315,dish,طبق ( صحن),In house
+316,knife,سكين,In house
+317,fork,شوكة,In house
+318,spoon,ملعقة,In house
+319,cupful,فنجان,In house
+320,freezer,مجمد (فريزر),In house
+321,cup,كأس ( كوب),In house
+322,thermos,حافظ حرارة ( ترمس),In house
+323,food room,غرفة طعام,In house
+324,pitcher,إبريق,In house
+325,table,طاولة,In house
+326,dalah,كنكة ( دلة),In house
+327,bathroom,دورة مياه (حمام),In house
+328,chair,كرسي,In house
+329,washing machine,غسالة,In house
+330,towel carpet,منشفة,In house
+331,carpet,سجادة (زربية),In house
+332,moquette,موكيت ( فرش أرضي) moquette,In house
+333,chandelier,ثريا (نجفة),In house
+334,cassette,مسجل,In house
+335,cassette tape,شريط كاست,In house
+336,television,تلفزيون (تلفاز),In house
+337,satellite,طبق هوائي (دش),In house
+338,video tape,شريط فيديو,In house
+339,video camera,كاميرا فيديو,In house
+340,photo camera,كاميرا فوتوغرافية,In house
+341,telephone,هاتف ( تلفون),In house
+342,guests room,غرفة ضيوف,In house
+343,video,فيديو,In house
+344,censer,مبخرة,In house
+345,heater,مدفأة,In house
+346,key,مفتاح,In house
+347,fan,مروحة,In house
+348,central heater,تدفئة مركزية,In house
+349,electrics,كهرباء,In house
+350,air conditioner,مكيف,In house
+351,wire,سلك كهربائي,In house
+352,plug,قابس كهربائي ( فيش),In house
+353,bag,حقيبة سفر,In house
+354,iron,مكواة,In house
+355,thermometer,ميزان حرارة جوي,In house
+356,God,الله تعالى,Religion
+357,Muhammad is the Messenger of Allah,محمد رسول الله,Religion
+358,Essa Christ,عيسى المسيح,Religion
+359,The Holy Quran,القرآن الكريم,Religion
+360,Rightly Guided Caliphs,الخلفاء الراشدون,Religion
+361,Sunnah,السنة النبوية,Religion
+362,Pillars of Islam,أركان الإسلام,Religion
+363,Pillars of Faith,أركان الإيمان,Religion
+364,The two certificates,الشهادتين,Religion
+365,pray,يصلي / الصلاة,Religion
+366,zakat,الزكاة,Religion
+367,Fasting,الصوم,Religion
+368,Umrah,العمرة,Religion
+369,Pilgrimage,الحج,Religion
+370,Angels,ملائكة,Religion
+371,messenger,رسول,Religion
+372,Doomsday,يوم القيامة,Religion
+373,Fate and destiny,القضاء والقدر,Religion
+374,Pillars of prayer,أركان الصلاة,Religion
+375,Good,خير,Religion
+376,Intention,النية,Religion
+377,Evil,شر,Religion
+378,purity,طهارة,Religion
+379,Prayer invalidators,مبطلات الصلاة,Religion
+380,tayammum,تيمم,Religion
+381,ablution,يتوضأ / وضوء,Religion
+382,authorized,يؤذن,Religion
+383,Wipe on the slippers,مسح على الخفين,Religion
+384,Al-fajr prayer,صلاة الفجر,Religion
+385,Salat Aduher,صلاة الظهر,Religion
+386,Asr prayer,صلاة العصر,Religion
+387,Maghreb's prayer,صلاة المغرب,Religion
+388,eshaa pray,صلاة العشاء,Religion
+389,speech,خطبة,Religion
+390,Friday sermon,خطبة الجمعة,Religion
+391,Fiance,خطيب,Religion
+392,Eid sermon,خطبة العيد,Religion
+393,Mosque,مسجد,Religion
+394,surah,سورة,Religion
+395,Before,إمام,Religion
+396,Al-Fatihah,سورة الفاتحة,Religion
+397,any,آية,Religion
+398,Night of Power,ليلة القدر,Religion
+399,Feast,عيد,Religion
+400,Eid al-Fitr,عيد الفطر,Religion
+401,Eid al-Adha,عيد الأضحى,Religion
+402,Ihram,إحرام,Religion
+403,Mecca,مكة,Religion
+404,Kaaba,الكعبة,Religion
+405,Medina,المدينة المنورة,Religion
+406,Mona,منى,Religion
+407,Arafat Mountain,جبل عرفات,Religion
+408,Safa and Marwa,الصفا والمروة,Religion
+409,Muzdalifah,مزدلفة,Religion
+410,Throwing pebbles,رمي الجمرات,Religion
+411,circumambulation,طواف,Religion
+412,Zamzam water,ماء زمزم,Religion
+413,the sacrifice,الأضحية,Religion
+414,break the ihram,فك الإحرام,Religion
+415,farewell circumambulation,طواف الوداع,Religion
+416,Al-Aqsa Mosque,المسجد الأقصى,Religion
+417,swim,يسبح,Religion
+418,Thank God,الحمد لله,Religion
+419,How great is our God,سبحان الله,Religion
+420,Faith,إيمان,Religion
+421,Polytheism,الشرك بالله,Religion
+422,I seek refuge in God,أعوذ بالله,Religion
+423,Satan,شيطان,Religion
+424,genie,جن,Religion
+425,the lost,الضالون,Religion
+426,angered them,المغضوب عليهم,Religion
+427,fetish,صنم,Religion
+428,fornication,زنى,Religion
+429,the Paradise,الجنة,Religion
+430,fire,النار,Religion
+431,spirit,روح,Religion
+432,rights,حقوق,Religion
+433,Duties,واجبات,Religion
+434,Deeds,حسنات,Religion
+435,sins,سيئات,Religion
+436,halal,حلال,Religion
+437,forbidden,حرام,Religion
+438,forgiveness,مغفرة,Religion
+439,religion,دين,Religion
+440,Christian,مسيحي,Religion
+441,Jewish,يهودي,Religion
+442,church,كنيسة,Religion
+443,Isra and Miraj,إسراء ومعراج,Religion
+444,Eve,حواء,Religion
+445,Adam,آدم,Religion
+446,charity,صدقة,Religion
+447,Prophet,نبي,Religion
+448,guidance,هداية,Religion
+449,honesty,أمانة,Religion
+450,martyr,شهيد,Religion
+451,Parental rights,حقوق الوالدين,Religion
+452,Disobedience to parents,عقوق الوالدين,Religion
+453,Muslim,مسلم,Religion
+454,Mercy,رحمة,Religion
+455,New Year's Holiday,عيد رأس السنة,Religion
+456,homework,فروض,Religion
+457,Dome of the Rock,قبة الصخرة,Religion
+458,Create,خلق,Jobs and professions
+459,engineer,مهندس,Jobs and professions
+460,photographer,مصور فوتوغرافي,Jobs and professions
+461,Meat man,جزار / قصاب,Jobs and professions
+462,driver,سائق,Jobs and professions
+463,jeweler,صائغ,Jobs and professions
+464,servant,خادم,Jobs and professions
+465,chairman,رئيس قسم,Jobs and professions
+466,blacksmith,حداد,Jobs and professions
+467,weld,لحام كهربائي,Jobs and professions
+468,Sign language translator,مترجم لغة الإشارة,Jobs and professions
+469,announcer,مذيع,Jobs and professions
+470,translator,مترجم لغات,Jobs and professions
+471,manager,مدير,Jobs and professions
+472,ambassador,سفير,Jobs and professions
+473,minister,وزير,Jobs and professions
+474,King,ملك / سلطان,Jobs and professions
+475,Premier Minister,أمير البلاد / رئيس الجمهورية,Jobs and professions
+476,sheikh,شيخ,Jobs and professions
+477,governor,محافظ / وال,Jobs and professions
+478,under secretary of state,ولي عهد / وكيل وزارة,Jobs and professions
+479,speaker,رئيس مجلس الشعب (النواب),Jobs and professions
+480,general secretary,أمين عام,Jobs and professions
+481,journalist,صحفي,Jobs and professions
+482,draftsman,رسام,Jobs and professions
+483,tailor,خياط / تارزي,Jobs and professions
+484,policeman,ضابط,Jobs and professions
+485,pilot,طيار,Jobs and professions
+486,soldier,جندي,Jobs and professions
+487,barber,حلاق,Jobs and professions
+488,dyer,صباغ,Jobs and professions
+489,fireman,رجل إطفاء / دفاع مدني,Jobs and professions
+490,carpenter,نجار,Jobs and professions
+491,teacher,معلم / مدرس,Jobs and professions
+492,chef,طباخ,Jobs and professions
+493,farmer,فلاح,Jobs and professions
+494,agent,موظف,Jobs and professions
+495,treasurer,أمين صندوق,Jobs and professions
+496,pharmacist,صيدلي,Jobs and professions
+497,doctor,طبيب,Jobs and professions
+498,nurse,ممرضة,Jobs and professions
+499,orderly,ممرض,Jobs and professions
+500,lawyer,محام,Jobs and professions
+501,traveling,انتقال,Jobs and professions
+502,appointment,تعيين,Jobs and professions
