@@ -187,12 +187,12 @@ Sources are in `docs/en` and `docs/ar`; see [docs/README.md](docs/README.md) to 
 
 | Role | Member |
 |---|---|
-| 🗂️ Data & Evaluation Engineer | _name_ |
-| 👁️ Computer Vision Engineer | _name_ |
-| 🧠 Machine Learning Engineer | _name_ |
-| 📱 Mobile App Engineer | _name_ |
-| 🗣️ Speech & NLP Engineer | _name_ |
-| 🧍 3D Avatar Engineer | _name_ |
+| 🗂️ Data & Evaluation Engineer |Momen - Ahmed - Habiba |
+| 👁️ Computer Vision Engineer |Alaa - Aya - Mahmoud |
+| 🧠 Machine Learning Engineer |Momen - Ahmed - Habiba |
+| 📱 Mobile App Engineer |Alaa - Aya - Mahmoud |
+| 🗣️ Speech & NLP Engineer |Momen - Ahmed - Habiba|
+| 🧍 3D Avatar Engineer | Alaa - Aya - Mahmoud |
 
 ---
 
